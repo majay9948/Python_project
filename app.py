@@ -16,7 +16,7 @@ user = [
 ]
 @app.route('/')
 def hello_world():
-    return render_template('index.js')
+    return render_template('index.html')
 
 @app.route('/user')
 def users():
