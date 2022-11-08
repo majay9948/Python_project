@@ -1,0 +1,194 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+.author-image 
+{
+    width:30px;
+    border-radius: 50%;
+}
+.author-designation{
+    background: #045de9;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 3px 5px 2px;
+    line-height: 10px;
+    display: inline-block;
+}
+.author-container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5px;
+}
+
+
+/* article title style */
+.post-title 
+{
+    padding: 10px;
+}
+.line-separate {
+    border-bottom: 1px solid lightgrey;
+    margin: 10px 20px;
+}
+/* Pitch Report */
+.pitch-icon
+{
+    width:40px;
+    height: 30px;
+}
+.pitch-heading 
+{
+    font-weight: 500;
+    font-size: 26px;
+}
+.prediction-side-heading 
+{
+    font-weight: 500;
+    font-size: 28px;
+    border-left: 4px solid rgba(86, 61, 124, 1);
+    margin-left: 10px;
+    padding-left:10px;
+    margin-bottom: 5px;
+}
+.mini-side-heading
+{
+    font-weight: 500;
+    font-size: 18px;
+    border-left: 4px solid orange;
+    margin-left: 20px;
+    padding-left:10px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+/* pitch report grid container */
+.grid-container{
+    background-color:white;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+.box{
+padding: 10px;
+background-color:white;
+display:flex; 
+justify-content: center;
+flex-direction: column;
+align-items:flex-start;
+}
+.prediction-mini-side-heading{
+    font-weight: 500;
+    font-size: 14px;
+    border-left: 4px solid orange;
+    padding-left:10px;
+    margin-bottom: 8px;
+}
+  
+.winning-card-image 
+{
+    width: 200px;
+}
+
+.playing11 
+{
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+    padding: 10px; 
+    grid-template-rows: auto;
+}
+.left-playing11 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right-playing11
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.prediction-player-data 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.prediction-player-image 
+{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid lightgrey; 
+    margin-right: 10px;
+}
+.prediction-player-name 
+{
+    font-weight: 500;
+    font-size: 12;
+}
+.prediction-player-role 
+{
+    color: grye; 
+    font-size: 10;
+}
+/* color stuff here */
+.p-blue 
+{
+    border-left: 2px solid blue;
+}
+.p-pink
+{
+    border-left: 2px solid #E83A59;
+}
+.p-orange
+{
+    border-left: 2px solid orange;
+}
+.p-violet
+{
+    border-left: 2px solid violet;
+}
+.image-rounded
+{
+    border-radius: 16px;
+}
+.sub-partision-box 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.partision-box 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+.grid-gap-grey 
+{
+    background-color: lightgrey;
+    grid-gap: 1px;
+}
